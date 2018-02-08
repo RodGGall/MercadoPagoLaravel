@@ -1,0 +1,20 @@
+{
+    "name": "rodggall/mercadopago",
+    "description": "SDK MercadoPago v0.5.2 para laravel",
+    "keywords": ["laravel","mercadopago","sdk","payment"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"RodGGall",
+            "email":"rodggall@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rodggall\\MercadoPago\\": "src/"
+        }
+    }
+}
