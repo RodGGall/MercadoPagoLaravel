@@ -1,6 +1,6 @@
 <?php
 
-namespace rodggall\MercadoPago\Facades;
+namespace MercadoPagoLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
