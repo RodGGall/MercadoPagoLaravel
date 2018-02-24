@@ -15,5 +15,12 @@
             "name": "rodggall",
             "email": "rodggall@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability":"dev",
+    "autoload":{
+        "psr-4":{
+            "MercadoPagoLaravel\\":"src/"
+        },
+        "classmap":["lib/"]
+    }
 }
