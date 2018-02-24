@@ -1,6 +1,6 @@
 <?php
 
-namespace rodggall\MercadoPago;
+namespace MercadoPagoLaravel;
 
 use Exception;
 
