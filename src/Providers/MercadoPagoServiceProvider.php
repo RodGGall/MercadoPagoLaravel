@@ -1,9 +1,9 @@
 <?php
 
-namespace rodggall\MercadoPago\Providers;
+namespace MercadoPagoLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use rodggall\MercadoPago\MP;
+use MercadoPagoLaravel\MP;
 
 class MercadoPagoServiceProvider extends ServiceProvider 
 {
