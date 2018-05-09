@@ -41,7 +41,7 @@ class MP{
         if (isset ($this->ll_access_token) && !is_null($this->ll_access_token)) {
             return $this->ll_access_token;
         }
-        app_client_values = array(
+        $app_client_values = array(
             'client_id' => $this->client_id,
             'client_secret' => $this->client_secret,
             'grant_type' => 'client_credentials'
